@@ -30,7 +30,7 @@
     .tiny {
       text-align: right;
       padding: 0;
-      margin:0;
+      margin: 0;
       color: white;
       font-size: .9em;
       height: 25px;
@@ -38,15 +38,30 @@
 
     .phone {
       border-radius: 1px;
-      background-color:#edf7f2;
       color: black;
-      padding: 2px;
+      position: relative;
+      top: -2px;
     }
 
     .obf {
+      position: relative;
+      top: 1px;
       font-size: 1.2em;
-      padding: -2px;
     }
+
+    li.customnv {
+      background-color: white;
+      padding:0;
+      width: 25%;
+      margin-top: 5px;
+      text-align: center;
+    }
+    ul.customnv {
+      padding:0;
+      margin-bottom: 20px;
+      width:100%;
+    }
+
   </style>
 
 </head>
@@ -59,38 +74,55 @@
           <div class="row">
             <div class="col-9 innerte">Resume - Shawn Sanchez
             </div>
+            <!--
             <div class="col-3 align-self-top">
-              <!--<h3 class="text-right"><span class=" badge badge-light">U.S. Citizen</span></h3>-->
-              <p class='tiny font-weight-bold'><span class="phone">U.S. Citizen</span></p><p class='tiny'><span class="phone">shawnit‹at›live.com</span></p><p class='tiny'><span class="phone"><span class="obf">➏➋➌</span>-850-4565</span></p>
+              <h3 class="text-right"><span class=" badge badge-light">U.S. Citizen</span></h3>
+              <p class='tiny font-weight-bold'><span class="phone">U.S. Citizen</span></p>
+              <p class='tiny'><span class="phone">shawnit‹at›live.com</span></p>
+              <p class='tiny'><span class="phone"><span class="obf">➏➋➌</span>-850-4565</span></p>
             </div>
+          -->
           </div>
         </div>
       </div>
-      <div class="row col-12 pl-3 pt-3">
+
+      <div class="row col-12">
+        <div class="col-12 p-0">
+          <ul class="list-group list-group-horizontal customnv">
+            <li class="list-group-item customnv">U.S. Citizen</li>
+            <li class="list-group-item customnv">shawnit‹at›live.com</li>
+            <li class="list-group-item customnv"><span class="phone"><span class="obf">➏➋➌</span>-850-4565</span></li>
+            <li class="list-group-item customnv">quincysoul.github.io</li>
+          </ul>
+        </div>
+
         <div class="col-12">
           <h2>Objective</h1>
             <hr>
             <p class="lead">
-              Pursuing my <b>web development</b> career, by leveraging the Galvanize bootcamp to demonstrate skills in cutting edge technology stacks.
+              Seeking <b>web development</b> jobs with up-to-date technology stacks (React,Node,TypeScript).
             </p>
-            <div class="alert alert-dark mb-1" role="alert">
-              <p class="mb-0"><b>Active Education</b>: Galvanize Web Development Immersive course for 18 weeks full-time.
-                <button type="button" class="btn badge-secondary mb-0 ml-4">
-                  Graduation <span class="badge badge-light">9/6/2019</span>
-                  <span class="sr-only">Graduation</span>
-                </button>
-              </p>
-            </div>
-            <div class="alert alert-light border" role="alert"><b>Previous Education:</b> B.S. in Computer Information Systems at Arizona State University
+            <div class="alert border mb-1" role="alert"><b>Education:</b> Bachelor's of Science in <b>Computer Information Systems</b> at Arizona State University
               <!-- <button type="button" class="btn badge-light mb-0 ml-4">
                 Graduation <span class="badge badge-light">9/6/2019</span>
                 <span class="sr-only">Graduation</span>
               </button> -->
             </div>
+            <div class="alert alert-dark mb-2" role="alert">
+              <p class="mb-0"><b>Certification</b>: Galvanize Web Development Immersive course for 18 weeks f/t.
+                <!--
+                <button type="button" class="btn badge-secondary mb-0 ml-4">
+                  Graduation <span class="badge badge-light">9/6/2019</span>
+
+                  <span class="sr-only">Graduation</span>
+                </button>
+                -->
+              </p>
+            </div>
 
 
         </div>
-        <div class="col-12 pl-3 pt-2">
+        <div class="col-12 pl-3 pt-3">
           <h2>Experience</h2>
         </div>
         <div class="col-12 pl-3">
@@ -185,7 +217,7 @@
         </div>
 
         <div class="col-10 pl-3 pt-2">
-          <h4>DevOps System Administrator at Scientific Technologies Corporation</h4>
+          <h4>DevOps/System Administrator at Scientific Technologies Corporation</h4>
           <p class="lead">Internship as a system administrator managing Windows servers and supporting production immunization software across the U.S.</p>
           </p>
           <ul>
@@ -210,7 +242,7 @@
               4 months
             </div>
             <ul class="list-group list-group-flush">
-              <li class="list-group-item">06/2014</li>
+              <li class="list-group-item">07/03/2014</li>
               <li class="list-group-item">02/07/2014</li>
               <!-- Possible date listed 6/19/2014. Unsure. -->
             </ul>
@@ -218,16 +250,7 @@
         </div>
         <hr>
         <div class="row col-12">
-        <hr>
-        <footer class="page-footer font-small blue">
-
-  <!--
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> shawnit‹at›live.com</a>
-  </div>
-  -->
-
-</footer>
+          <hr>
         </div>
 
 
