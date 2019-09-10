@@ -17,13 +17,13 @@
     }
 
     .titlet {
-      background-color: #b0c2c2;
+      /* background-color: #b0c2c2; */
     }
 
     .titlet .innerte {
-      color: white;
+      color: rgb(0, 95, 219);
       font-size: 3em;
-      text-shadow: 1px 1px 0px rgba(32, 126, 51, 0.6);
+      text-shadow: 1px 1px 0px rgba(17, 17, 17, .8);
     }
 
     .tiny {
@@ -33,6 +33,11 @@
       color: white;
       font-size: .9em;
       height: 25px;
+    }
+
+    .badge
+    {
+      font-size: .8em;
     }
 
     .phone {
@@ -57,8 +62,13 @@
     }
     ul.customnv {
       padding:0;
-      margin-bottom: 20px;
+      margin-bottom: 5px;
       width:100%;
+    }
+
+    .lead
+    {
+      font-size: 1.1em;
     }
 
   </style>
@@ -66,12 +76,12 @@
 </head>
 
 <body>
-  <div class="container-fluid p-4">
-    <div class="row pl-2">
-      <div class="row col-12">
-        <div class="titlet col-12 rounded p-4">
+  <div class="container-fluid pl-4 pr-4 mt-0 pt-4">
+    <div class="row p-0 pl-2 mt-0">
+      <div class="row col-12 mt-5 pb-2">
+        <div class="titlet col-12 rounded mt-0">
           <div class="row">
-            <div class="col-9 innerte">Resume - Shawn Sanchez
+            <div class="col-12 innerte">Resume - Shawn Sanchez
             </div>
             <!--
             <div class="col-3 align-self-top">
@@ -84,13 +94,13 @@
           </div>
         </div>
       </div>
-      <div class="row col-12 mb-0">
+      <div class="row col-12 mb-0 pb-0">
         <div class="col-12 p-0 mb-0">
           <ul class="list-group list-group-horizontal customnv">
             <li class="list-group-item customnv">U.S. Citizen</li>
             <li class="list-group-item customnv">shawnit ‹at› live.com</li>
-            <li class="list-group-item customnv"><span class="phone"><span class="obf">➏➋➌</span>-850-4565</span></li>
-            <li class="list-group-item customnv"><!-- <b>1620 E Cindy St.<br/>Chandler, AZ 85225</b> --><!--quincysoul.github.io--></li>
+            <li class="list-group-item customnv"><span class="phone">623-850-4565</span></li>
+            <li class="list-group-item customnv">quincysoul.github.com<!-- <b>1620 E Cindy St.<br/>Chandler, AZ 85225</b> --><!--quincysoul.github.io--></li>
           </ul>
         </div>
         </div>
@@ -100,7 +110,7 @@
 <!--         <div class="col-12 pl-3">
           <hr>
         </div> -->
-                  <p class="lead pt-1"><small>Software developer. Actively developing node and Java apps on GitHub. Former systems administrator with 5 years of IT experience.<p></small></p>
+                  <p class="lead pt-1"><small>Software developer. Former operations engineer with IT experience, moving into development.<p></small></p>
         <div class="col-10 pl-3">
 
           <h4>Systems Engineer - General Motors</h4>
@@ -256,6 +266,7 @@
               Seeking <b>web development</b> jobs with up-to-date technology stacks (React,Node,TypeScript).
             </p> -->
             <hr>
+            <h3>Education</h3>
             <div class="alert border mb-1" role="alert"><b>Education</b>: Bachelor's of Science in <b>Computer Information Systems</b> at Arizona State University 
               <button type="button" class="btn badge-light mb-0 ml-4">
                  <span class="badge badge-light">2014</span>
@@ -272,7 +283,13 @@
                 -->
               </p>
             </div>
-          </div>
+            <ul>
+              <li>Node.JS, Java, Spring, and JavaScript fundamentals. REST API design, with React-redux or templated front end.</li>
+              <li>SQL database design and implementation into Express or Spring backends. CRUD capabilities using routes and mapping.</li>
+              <li>Understands how to describe the value of IT operations and innovation to the business side of a company.</li>
+
+            </ul>
+                </div>
         </div>
 
 
